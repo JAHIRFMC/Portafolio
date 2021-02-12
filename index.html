@@ -4,9 +4,202 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JAHIRFMC</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <a href="#" class="logo">JAHIRFMC</a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="menu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#works">works</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Contacto">Contact Info</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="Home"> 
+        <div class="texBx">
+            <h2>HI there 👋 <br><samp> I'M JAHIR MEDINA </samp>  </h2>
+            <h3>🌐💻SYSTEMS ENGINEER💻🌐</h3>
+            <a href="#About" class="btn">About me</a>
+            </div>
+    </section>
+    <section class="about" id="About"> 
+           <div class="heading">
+                <h2>About Me</h2>
+            </div>
+            <div class="content">
+                <div class="contenBX w50">
+                    <h3><br>Hola, mi Nombre es JAHIR FERNAN MEDINA CORREDOR<br> Ingeniero De Sistemas y Computación</h3>
+                    <p><br>Me caracterizo por ser una persona responsable, honesto, dinámico con buenas <br>relaciones interpersonales, con la capacidad de liderazgo para el trabajo en equipo <br>con objetividad y profesionalismo.<br>
+
+                        <br>Cuento con habilidades organizativas, asimilación rápida de nuevos conocimientos <br>y tecnologías.<br>
+                        
+                        <br>Tengo conocimiento en el desarrollo de sitios web con HTML5, JavaScript y CSS3,<br> cuento con conocimientos en redes y telecomunicaciones como en electrónica.<br>
+                        
+                        <br>Adicionalmente soy hablante de Español lengua nativa, ingles básico.<br>
+                        
+                        <br>Practico deporte como lo son el baloncesto, futbol y atletismo, siempre ay algo que <br>aprender por lo cual me gusta leer y aprender de nuevas tecnologías. </p>
+                </div>
+                <div class="w40">
+                    <img src="img/perfil.jpg" class="img" >
+                </div>
+            </div>
+    </section>
+    <section class="portafolio" id="works">
+        <div class="heading white">
+            <h2>works</h2>
+        </div>
+        <div class="content">
+            <div class="portafolioBX">
+                <h2>Carrito De Compras</h2>
+                <img src="img/carrito.jpg" alt="">
+                <p>En este Carrito De Compras se realizan las siguientes aciones:<br>
     
+                    Se traen datos de un json utilizando fetch.<br>
+                    Se pintan productos en Dom con fragment y templates html.<br>
+                    Se agregar y quitar productos a carrito de compras.<br>
+                    Mostrar cantidades y totales de estos productos.<br>
+                    Acción de agregar o eliminar productos desde carrito de compras.<br>
+                    Botón vacias carrito de compras.<br>
+                    Respaldar datos en LocalStorage (en construcción...)<br>
+                    Subir proyecto a hosting gratuito</p>
+                    <a href="https://carritos-de-compras.netlify.app/" class="btn">Ver Proyecto</a>
+            </div>
+        </div>
+       
+
+    </section >
+
+    <section id="Skills">
+        <div class="inner">
+            <div class="header-skills">
+                <h1>My Skills</h1>
+            </div>
+            <div class="container-skills">
+                 <div class="skills-box">
+                      <div class="skills-title">
+                          <div class="img-skills">
+                              <img src="img/javas.png" class="skill-icon">
+                          </div>
+                                <h3>Javascript</h3>
+                      </div> 
+                    </div>    
+                      <div class="skills-box">
+                        <div class="skills-title">
+                            <div class="img-skills">
+                                <img src="img/html5.png" class="skill-icon">
+                            </div>
+                                  <h3>html 5</h3>
+                        </div>  
+                   </div> 
+                   <div class="skills-box">
+                    <div class="skills-title">
+                        <div class="img-skills">
+                            <img src="img/css3.png" class="skill-icon">
+                        </div>
+                              <h3>css</h3>
+                    </div>  
+               </div> 
+               <div class="skills-box">
+                <div class="skills-title">
+                    <div class="img-skills">
+                        <img src="img/gitLogo.jpg" class="skill-icon">
+                    </div>
+                          <h3>Git</h3>
+                </div>  
+           </div>   
+           <div class="skills-box">
+            <div class="skills-title">
+                <div class="img-skills">
+                    <img src="img/python.png" class="skill-icon">
+                </div>
+                      <h3>Python</h3>
+            </div>  
+       </div> 
+       <div class="skills-box">
+        <div class="skills-title">
+            <div class="img-skills">
+                <img src="img/MySQL.png" class="skill-icon">
+            </div>
+                  <h3>MySql</h3>
+        </div>  
+   </div>  
+                 </div>   
+            </div>
+        </div>
+    </section>
+
+    <footer id="Contacto">
+            <div class="container-footer">
+                <div class="sec about">
+                    <h2>About Us</h2>
+                    <p><br>Hola, mi Nombre es JAHIR FERNAN MEDINA CORREDOR<br> Ingeniero De Sistemas y Computación</p>
+                    <ul class="sci">
+                        <li><a href="https://www.linkedin.com/in/jahirfmc/"target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://github.com/JAHIRFMC" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/jahirfmc" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </i></a></li>
+    
+    
+                    </ul>
+                </div>
+                    <div class="sec links">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#works">works</a></li>
+                            <li><a href="#Skills">Skills</a></li>
+                            <li><a href="#Contacto">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <dir class="sec contact ">
+                        <h2>Contact Info</h2>
+                        <ul class="info">
+                            <li>
+                                <samp><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                </samp>
+                                <samp>Colombia</samp>
+                            </li>
+                            <li>
+                                <samp><i class="fa fa-phone-square" aria-hidden="true"></i>
+                                </i>
+                                </samp>
+                                <p><a href="tel:3112235478">+573112235478</a></p>
+
+                            </li>
+                            <li>
+                                <samp><i class="fa fa-envelope" aria-hidden="true"></i>
+                                </i>
+                                </i>
+                                </samp>
+                               <p><a href="mail:jahirfmc@outlook.com">jahirfmc@outlook.com</a></p>
+                                
+                            </li>
+                        </ul>
+                    </dir>
+            </div> 
+    </footer>
+    <div class="copyriht">
+        <p>Copyriht 2021 JAHIRFMC</p>
+    </div>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky' , window.scrollY > 0);
+
+        });
+        function toggleMenu(){
+            var menuToggle=document.querySelector('.toggle');
+            var menu=document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
